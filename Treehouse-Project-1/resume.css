@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f5f0;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.cv {
+  background-color: #f0e8dc;
+  padding: 30px 20px;
+}
+header {
+  background-color: #f0e8dc;
+  padding: 0 20px;
+  height: 150px;
+  width: 100%;
+  border-bottom: solid 3px orange;
+}
+#title {
+  float: left;
+  text-align: left;
+  width: 70%;
+  text-transform: uppercase;
+}
+.contact {
+  width: 220px;
+  float: right;
+}
+.contact li {
+  list-style-type: none;
+  text-align: left;
+}
+.profile {
+  padding: 0 40px;
+}
+.sub-div {
+  text-decoration: underline;
+}
+.skills {
+  list-style-position: inside;
+  line-height: 20px;
+}
+.job-title a {
+  text-decoration: none;
+  color: #222;
+  font-style: italic;
+}
+
+@media (max-width: 920px) {
+ header {
+   height: 170px;
+ }
+  #title,
+  .contact {
+    display: block;
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+  .contact {
+    float: none;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .contact ul li {
+    text-align: center;
+  }
+  .contact ul {
+    padding: 0;
+  }
+}
